@@ -57,7 +57,7 @@ logger = logging.getLogger(__name__)
 def parse_arguments() -> argparse.Namespace:
     """解析命令行参数"""
     parser = argparse.ArgumentParser(
-        description='A股自选股智能分析系统',
+        description='A股自选股智能分析系统sunday',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 示例:
